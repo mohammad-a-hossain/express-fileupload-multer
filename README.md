@@ -31,3 +31,13 @@
 * --in server only a upload.none() will set . no file will upload but form  data
 ---
 ## single file upload with server side validation
+* make a validation filesize limit in multer
+* mimetype validation 
+* making a doc name field in front
+* pdf validation
+* controlling file storage
+--first storage var define / destination define control function(req,file,cb) cb define the destination folder
+--require file path
+--making storage object and implement separately
+---
+credit goes to sumit sir
